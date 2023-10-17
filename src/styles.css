@@ -1,14 +1,13 @@
 body {
- background-color: #001523;
  color: #edf2fb;
- font-family: Helvetica;
-}
-
-main {
- background-color: #001a2c;
+ font-family: "Helvetica";
+ padding: 30px;
+ background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)),
+  url("../images/florian-krumm-Bl9A2pSPxzk-unsplash.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
  box-shadow: 0 0 10px 5px #002137;
- margin: 20px auto;
- width: 80vw;
+ margin: auto;
 }
 
 h1,
@@ -54,6 +53,7 @@ form {
  width: 65vw;
  padding: 20px;
  border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.7);
 }
 
 form,
