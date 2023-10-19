@@ -73,14 +73,14 @@ label {
 }
 
 #submit {
- width: 30vw;
+ width: 20vw;
  height: 2.5em;
  margin: 1em auto;
  display: block;
- border-radius: 5px;
+ border-radius: 8px;
  background-color: #0086df;
  transition: 200ms all ease-in-out;
- border-style: groove;
+ border: 2px solid black;
  font-weight: bold;
  color: black;
 }
@@ -91,4 +91,29 @@ label {
 }
 textarea {
  min-height: 5rem;
+}
+
+@media (max-width: 925px) {
+ form {
+  width: 80vw;
+ }
+}
+
+@media (max-width: 576px) {
+ body {
+  padding: 20px 10px;
+ }
+
+ form,
+ input {
+  font-size: 0.9rem;
+ }
+
+ h1 {
+  font-size: 2rem;
+ }
+
+ p {
+  font-size: 1rem;
+ }
 }
