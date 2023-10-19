@@ -105,7 +105,8 @@ textarea {
  }
 
  form,
- input {
+ input,
+ textarea {
   font-size: 0.9rem;
  }
 
