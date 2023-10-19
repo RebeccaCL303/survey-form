@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Survey Form</title>
   <link href="src/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+   rel="stylesheet" />
  </head>
  <body>
   <h1 id="title">Video Game Survey</h1>
@@ -69,9 +74,9 @@
       </select>
      </label>
     </fieldset>
-    <fieldset id="categories" class="inline">
-     <label for="categories"
-      >What are your favorite categories? (Check at least one)
+    <label for="categories">
+     <fieldset id="categories" class="inline">
+      What are your favorite categories? (Check at least one)
       <label for="sports">
        <input checked id="sports" value="sports" type="checkbox" /> Sports
       </label>
@@ -97,8 +102,8 @@
       <label for="other"
        ><input id="other" value="other" type="checkbox" /> Other</label
       >
-     </label>
-    </fieldset>
+     </fieldset>
+    </label>
     <fieldset>
      <label for="favorites"
       >What are your favorite games? (optional)
